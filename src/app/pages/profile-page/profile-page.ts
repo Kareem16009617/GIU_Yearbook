@@ -84,7 +84,6 @@ export class ProfilePage implements OnInit {
         this.form.patchValue({ quote: student.quote });
       }
 
-      this.form.patchValue({ quote: student.quote });
       // patchValue counts as a "change", so reset the flag afterwards.
       this.changed.set(false);
     });
